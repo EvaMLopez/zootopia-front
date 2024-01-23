@@ -1,9 +1,8 @@
 <script setup>
-import Header from '@/components/Home/Header.vue';
-import MainHome from '@/components/Home/MainHome.vue';
+import Header from '@/components/home/Header.vue';
+import MainHome from '@/components/home/MainHome.vue';
 import SpeciesCountVue from '@/components/home/SpeciesCount.vue';
-
-
+import Pagination from '@/components/list/Pagination.vue';
 
 </script>
 
@@ -11,6 +10,7 @@ import SpeciesCountVue from '@/components/home/SpeciesCount.vue';
     <Header />   
     <SpeciesCountVue /> 
     <MainHome />
+    <Pagination />
     
     
     
