@@ -1,86 +1,99 @@
-
+<script>
+export default {
+  
+}
+</script>
 
 
 
 
 <template>
 
-  <div class="container">
-    <div class="col-1">Id</div>
-    <div class="col-1">Name</div>
-    <div class="col-1">Gendre</div>
-    <div class="col-1">Specie</div>
-    <div class="col-1">Family</div>
-    <div class="col-1">Country</div>
-    <div class="col-1">Date</div>
-    <div class="col-1"></div>
-    <div class="col-1"></div>
+  <div class="specie">
+
   </div>
 
-  <div class="container">
-    <div class="col-left"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col">
-      <button type="button" class="btn-Ed">EDIT</button>
-    </div>
-    <div class="col-right">
-      <button @click="" type="button" class="btn-Del">DELETE</button>
-    </div>
+  <div class="search">
+    
   </div>
 
-  <div class="container">
-    <div class="col-left"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col">
-      <button type="button" class="btn-Ed">EDIT</button>
+  <div class="menu-info">
+    <div class="container">
+      <div class="col-1">Id</div>
+      <div class="col-1">Name</div>
+      <div class="col-1">Gendre</div>
+      <div class="col-1">Specie</div>
+      <div class="col-1">Family</div>
+      <div class="col-1">Country</div>
+      <div class="col-1">Date</div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
     </div>
-    <div class="col-right">
-      <button @click="" type="button" class="btn-Del">DELETE</button>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="col-left"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col">
-      <button type="button" class="btn-Ed">EDIT</button>
+    <div class="container">
+      <div class="col-left"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col">
+        <button type="button" class="btn-Ed">EDIT</button>
+      </div>
+      <div class="col-right">
+        <button @click="" type="button" class="btn-Del">DELETE</button>
+      </div>
     </div>
-    <div class="col-right">
-      <button @click="" type="button" class="btn-Del">DELETE</button>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="col-left"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col">
-      <button type="button" class="btn-Ed">EDIT</button>
+    <div class="container">
+      <div class="col-left"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col">
+        <button type="button" class="btn-Ed">EDIT</button>
+      </div>
+      <div class="col-right">
+        <button @click="" type="button" class="btn-Del">DELETE</button>
+      </div>
     </div>
-    <div class="col-right">
-      <button @click="" type="button" class="btn-Del">DELETE</button>
+
+    <div class="container">
+      <div class="col-left"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col">
+        <button type="button" class="btn-Ed">EDIT</button>
+      </div>
+      <div class="col-right">
+        <button @click="" type="button" class="btn-Del">DELETE</button>
+      </div>
     </div>
-  </div>
-      
+
+    <div class="container">
+      <div class="col-left"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col">
+        <button type="button" class="btn-Ed">EDIT</button>
+      </div>
+      <div class="col-right">
+        <button @click="" type="button" class="btn-Del">DELETE</button>
+      </div>
+    </div>
+  </div>    
 </template>
 
 <style lang="scss">

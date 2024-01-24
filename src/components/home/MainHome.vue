@@ -65,16 +65,6 @@ export default {
   font-size: 18px;
 }
 
-.row-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #dbdbdb;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-}
-
 .animal-info {
   display: flex;
   align-items: center;
