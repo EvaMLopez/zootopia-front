@@ -18,5 +18,4 @@ import SpeciesCountVue from '@/components/home/SpeciesCount.vue';
 </template>
 <style lang="scss" scoped>
 
-
-  </style>
+</style>
