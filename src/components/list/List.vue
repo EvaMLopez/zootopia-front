@@ -1,11 +1,63 @@
-<script>
-export default {
-  
+<script setup>
+import { useSpecimenStore } from "../stores/storeSpecimens";
+import { useFamilyStore } from "../stores/storeFamilies";
+import { useSpecieStore } from "../stores/storeSpecies";
+import { useGenderStore } from "../stores/storeGenders";
+import { useCountryStore } from "../stores/storeCountries";
+
+import { onBeforeMount } from "vue";
+
+const store = useSpecimenStore();
+const storeFamily = useFamilyStore();
+const storeSpecie = useSpecieStore();
+const storeGender = useGenderStore();
+const storeCountry = useCountryStore();
+
+onBeforeMount(async () => {
+  await store.fetchSpecimens();
+  await storeFamily.fetchFamilies();
+  await storeSpecie.fetchSpecies();
+  await storeGender.fetchGenders();
+  await storeCountry.fetchCountries();
+});
+
+function returnGenderName(idGender) {
+  let gender = storeGender.Genders.filter(function (gender) {
+    return gender.id == idGender;
+  });
+  let genderName = gender[0].name;
+  return genderName;
+}
+
+function returnSpecieName(idSpecie) {
+  let specie = storeSpecie.Species.filter(function (specie) {
+    return specie.id == idSpecie;
+  });
+  let specieName = specie[0].name;
+  return specieName;
+}
+
+
+function returnCountryName(idCountry) {
+  let country = storeCountry.Countries.filter(function (country) {
+    return country.id == idCountry;
+  });
+  let countryName = country[0].name;
+  return countryName;
+}
+
+function returnFamilyName(idSpecie) {
+  let specie = storeSpecie.Species.filter(function (specie) {
+    return specie.id == idSpecie;
+  });
+  let familyId = specie[0].id_family;
+  let family = storeFamily.Families.filter(function (family) {
+    return family.id == familyId;
+  });
+  let familyName = family[0].name;
+  return familyName;
 }
 </script>
-
-
-
 
 <template>
 

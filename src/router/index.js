@@ -15,8 +15,24 @@ const router = createRouter({
       name: 'HomeView',
       
       component: () => import('../views/HomeView.vue'),
+    },
+    {
+      path: '/AddView',
+      name: 'addview',
+      component: () => import('../views/AddView.vue')
+    },
+    {
+      path: '/ListView',
+      name: 'listview',
+      component: () => import('../views/ListView.vue')
+    },
+    {
+      path: '/ModifyView',
+      name: 'modifyview',
+      component: ()=>import('../views/ModifyView.vue')
     }
   ]
 })
+
 
 export default router
